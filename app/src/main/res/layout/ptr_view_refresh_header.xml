@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#00000000">
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <com.kyo.ptrdemo.view.PtrRefreshCircleHeader
+                android:id="@+id/ptr_header_circle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/ptr_header_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/ptr_refresh_arrow"/>
+            <ProgressBar
+                android:id="@+id/ptr_header_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/ptr_header_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="下拉刷新"/>
+</LinearLayout>

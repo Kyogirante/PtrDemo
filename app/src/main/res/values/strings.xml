@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PtrDemo</string>
+
+    <string name="ptr_first_demo">第一个例子</string>
+    <string name="ptr_second_demo">第二个例子</string>
+    <string name="ptr_third_demo">第三个例子</string>
+
+    <string name="ptr_refresh_normal">下拉刷新</string>
+    <string name="ptr_refresh_release">松开刷新</string>
+    <string name="ptr_refresh_refreshing">刷新中</string>
+</resources>

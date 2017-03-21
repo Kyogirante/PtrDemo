@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.kyo.ptrdemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PtrMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstdemo.PtrFirstDemoActivity"
+            android:label="@string/ptr_first_demo"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".seconddemo.PtrSecondDemoActivity"
+            android:label="@string/ptr_second_demo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".thirddemo.PtrThirdDemoActivity"
+            android:label="@string/ptr_third_demo"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

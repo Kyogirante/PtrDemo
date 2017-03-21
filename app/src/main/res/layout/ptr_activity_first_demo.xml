@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kyo.ptrdemo.firstdemo.PtrFirstDemoActivity">
+    <com.kyo.ptrdemo.firstdemo.PtrFirstRefreshableView
+        android:id="@+id/ptr_first_demo_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/ptr_first_demo_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+    </com.kyo.ptrdemo.firstdemo.PtrFirstRefreshableView>
+</LinearLayout>

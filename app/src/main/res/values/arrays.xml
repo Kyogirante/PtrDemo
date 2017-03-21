@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lv_data">
+        <item>the one</item>
+        <item>the two</item>
+        <item>the three</item>
+        <item>the four</item>
+        <item>the five</item>
+        <item>the six</item>
+        <item>the seven</item>
+        <item>the eight</item>
+        <item>the nine</item>
+        <item>the ten</item>
+        <item>the elven</item>
+        <item>the twelve</item>
+        <item>the thirteen</item>
+        <item>the fourteen</item>
+        <item>the fifteen</item>
+        <item>the sixteen</item>
+        <item>the seventeen</item>
+        <item>the eighteen</item>
+        <item>the nineteen</item>
+        <item>the twenty</item>
+        <item>the twenty-one</item>
+        <item>the twenty-two</item>
+        <item>the twenty-three</item>
+    </string-array>
+</resources>
